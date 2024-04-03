@@ -1,0 +1,247 @@
+/* 
+    CSS Custom
+    Data: 28.03.2024
+    by Gianluca Chiaravalloti
+*/
+
+body {
+    background-color: #F5F4F8;;
+}
+
+/* Navbar */
+nav {
+    height: 80px;
+    padding: 10px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.navbar-nav li a {
+    color: #000;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dropdown-menu img {
+    margin-left: 10px;
+}
+
+.dropdown-menu.user-menu {
+    left: -200px !important;
+    margin-right: 50px;
+}
+
+.dropdown-menu p {
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.dropdown-menu p span {
+    color: #505050;
+}
+
+.dropdown-menu a {
+    color: #000;
+}
+
+.image-user {
+    position: relative;
+}
+
+.user-active {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    right: 14px;
+    bottom: 0;
+    background-color: #1ACB98;
+}
+
+.d-flex {
+    height: 50px;
+}
+
+.message {
+    position: relative;
+}
+
+.message-user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #eeeded;
+    margin-right: 15px;
+}
+
+.message-user i {
+    position: absolute;
+    color: #000;
+}
+
+.message-active {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #7550FE;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+/* -------------------- End navbar */
+
+/* Section Hero */
+.section-hero {
+    background-color: #7550FE;
+    color: #fff;
+}
+
+.section-hero p {
+    color: #BCA8FF;
+}
+
+.btn-green {
+    background-color: #1ACB98;
+    color: #fff;
+}
+
+.btn-green:hover {
+    background-color: #d3d4d5;
+    color: #000;
+}
+
+.btn-green, .byn-light {
+    font-weight: 500;
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+    .section-hero {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .section-hero .welcome {
+        margin-top: 20px;
+    }
+
+    .section-hero .welcome p {
+        width: 350px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .section-hero img {
+        width: 390px;
+        margin-top: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .card-img-top {
+        display: flex;
+        width: auto;
+        flex: 0 0 calc(100%/3);
+        
+    }
+}
+
+.info-hero {
+    width: auto;
+    background-color: #fff;;
+}
+
+.icon-hero {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFEEDA;
+}
+
+.icon-hero i {
+    color: #BF7B2F;
+}
+
+.info {
+    margin-left: 20px;
+}
+/* -------------------- End Mobile */
+
+/* -------------------- End section hero */
+
+/* Card */
+.card {
+    height: 480px;
+}
+
+.card-title {
+    height: 70px;
+}
+
+.card-content {
+    height: 100vh;
+    background-color: #F5F4F8;
+}
+
+.cards-wrapper {
+    display: flex;
+}
+
+.cards-wrapper > card {
+    margin-left: 20px;
+}
+
+.card-body img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    border-radius: 50%;
+}
+
+.bi-star-fill::before,
+.bi-star-half::before,
+.bi-star::before {
+    color: #FFAA46;
+}
+
+.bi-bar-chart-fill::before,
+.bi-bar-chart::before {
+    color: #7550FE;
+}
+/* -------------------- End card */
+
+
+/* Footer */
+.nav-link {
+    color: #000;
+}
+
+/* -------------------- End footer */
+
